@@ -1,4 +1,4 @@
-**📄 Smart Resume Analyzer**
+***📄 Smart Resume Analyzer***
 
 An intelligent web application that helps job seekers and recruiters quickly determine how well a resume matches a job description. The application uses Natural Language Processing (NLP) and Machine Learning (ML) to provide a similarity score and actionable feedback.
 
@@ -45,7 +45,7 @@ git clone https://github.com/piyush-dhote/Smart-Resume-Analyzer.git
 cd Smart-Resume-Analyzer
 
 # 2. Create a Virtual Environment
-It is highly recommended to use a virtual environment to manage dependencies.
+# It is highly recommended to use a virtual environment to manage dependencies.
 # For macOS / Linux
 python3 -m venv venv
 source venv/bin/activate
@@ -55,12 +55,14 @@ python -m venv venv
 .\venv\Scripts\activate
 
 # 3. Install Dependencies
-Install the required Python libraries using the requirements.txt file.
+# Install the required Python libraries using the requirements.txt file.
 pip install -r requirements.txt
+# for mac use pip3
 
 # 4. Download NLTK Stopwords
 # Your application requires the stopwords corpus from NLTK. Run this command once to download it:
 python -c "import nltk; nltk.download('stopwords')"
+# for mac use python3
 
 # 5. Run the Application
 # Now you can start the Streamlit application.
@@ -83,9 +85,13 @@ Upload your resume using the file uploader.
 **👨‍💻 Connect with the Author**
 
 **Piyush Dhote**
+
 🔗[GitHub](https://github.com/piyush-dhote/Smart-Resume-Analyzer)
+
 🔗[LinkedIn](https://www.linkedin.com/in/piyush-dhote/)
+
 📧 piyussh.dhote@gmail.com
+
 🎓 Fresher Engineer (CS)
 
 ---
